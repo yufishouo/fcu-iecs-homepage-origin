@@ -29,7 +29,15 @@ document.querySelector('#modalForVideo').addEventListener('hide.bs.modal', () =>
 });
 
 window.addEventListener('load', () => {
-    let index_about = document.querySelector('.index-about-background');
-    let bgimg = index_about.dataset.bgimg;
-    document.getElementsByClassName('index-about-background')[0].style.backgroundImage = `url(${location.origin + bgimg})`;
+    try {
+        const index_about = document.querySelector('.index-about-background');
+        if (index_about && index_about.dataset && index_about.dataset.bgimg) {
+            const bgimg = index_about.dataset.bgimg;
+            const el = document.getElementsByClassName('index-about-background')[0];
+            if (el) el.style.backgroundImage = `url(${location.origin + bgimg})`;
+        }
+    } catch (e) {
+        // Prevent uncaught errors from breaking other scripts
+        console.warn('Failed to apply index-about background image:', e);
+    }
 });

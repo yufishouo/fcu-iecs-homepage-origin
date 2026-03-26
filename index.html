@@ -27,14 +27,46 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <!-- SEO: description, canonical, Open Graph, Twitter -->
+    <meta name="description" content="逢甲大學資訊工程學系｜教學、研究與產學合作資訊。了解系所簡介、師資、課程與最新消息。">
+    <link rel="canonical" href="https://YOUR_DOMAIN_HERE/">
+    <meta name="robots" content="index,follow">
+    <meta property="og:title" content="逢甲大學資訊工程學系">
+    <meta property="og:description" content="逢甲大學資訊工程學系｜教學、研究、產學合作與最新消息。">
+    <meta property="og:image" content="https://YOUR_DOMAIN_HERE/static/image/logo_footer.ed94b80e9e25.svg">
+    <meta property="og:url" content="https://YOUR_DOMAIN_HERE/">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="alternate" href="https://YOUR_DOMAIN_HERE/" hreflang="zh-Hant">
+    <link rel="alternate" href="https://YOUR_DOMAIN_HERE/en/" hreflang="en">
+
+    <!-- JSON-LD Organization -->
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"CollegeOrUniversity","name":"逢甲大學資訊工程學系","url":"https://YOUR_DOMAIN_HERE/","logo":"https://YOUR_DOMAIN_HERE/static/image/logo_footer.ed94b80e9e25.svg","contactPoint":[{"@type":"ContactPoint","telephone":"+886-4-24517250","contactType":"administration","email":"iecs@fcu.edu.tw"}]}
+    </script>
+
+     <style>
+     .visually-hidden { position:absolute !important; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+     .skip-link { position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden; }
+     .skip-link:focus, .skip-link:active { left:10px; top:10px; width:auto; height:auto; background:#fff; padding:8px; z-index:1000; }
+
+     /* Prevent image distortion: preserve intrinsic aspect ratio */
+     img { max-width: 100%; width: auto; height: auto; display: block; }
+     /* Ensure card / carousel images scale responsively without forced height */
+     .card-img-top, .card-img-top.card-img-scale, .d-block.w-100 { max-width:100%; width:100%; height:auto !important; }
+     /* If a fixed crop is desired, wrap the image in a container and use object-fit on the image instead.
+         e.g. .crop { position:relative; overflow:hidden; aspect-ratio: 16/9; } .crop img { width:100%; height:100%; object-fit:cover; }
+     */
+     </style>
+
 </head>
 
 <body>
+    <a class="skip-link" href="#main-content">跳到主要內容</a>
     <header>
         <nav class="navbar navbar-expand-lg bg-white">
             <div class="container" id="nav-content">
-                <a class="navbar-brand" href="/"><img id="logo" alt="Porto" width="200" height="80"
-                        src="./static/image/logo.svg"></a>
+                <a class="navbar-brand" href="/"><img id="logo" alt="逢甲大學 資訊工程學系 校徽" width="200" height="80"
+                    src="./static/image/logo.svg"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -231,7 +263,8 @@
         </nav>
     </header>
 
-    <div role="main" class="main" style="min-height: calc(100vh - 450px)">
+    <div role="main" id="main-content" class="main" style="min-height: calc(100vh - 450px)">
+        <h1 class="visually-hidden">逢甲大學 資訊工程學系 — 系所首頁</h1>
         
     <section class="section-index-index">
         <div class="container mb-4">
@@ -242,36 +275,32 @@
                             
                                 <a href="/news/115%E5%AD%B8%E5%B9%B4%E5%BA%A6%E5%A4%A7%E5%AD%B8%E7%94%B3%E8%AB%8B%E5%85%A5%E5%AD%B8%E6%9B%B8%E5%AF%A9%E6%BA%96%E5%82%99%E9%87%8D%E9%BB%9E%E6%8C%87%E5%BC%95/">
                                     <div class="carousel-item active">
-                                        <img src="./media/img/news/banner/%E9%99%84%E4%BB%B6%E4%BA%8C_%E7%94%B3%E8%AB%8B%E5%85%A5%E5%AD%B8%E6%9B%B8%E9%9D%A2%E8%B3%87%E6%96%99%E5%AF%A9%E6%9F%A5%E6%BA%96%E5%82%99%E6%8C%87%E5%BC%95%E9%A6%96%E9%A0%81%E5%A4%A7%E5%9C%96%E5%BA%95%E5%9C%96%E6%A8%A3%E5%BC%8F113%E5%B9%B4%E6%96%B0%E7%89%88%E6%A8%A3%E5%BC%8F.jpg.1336x470_q85_box-0%2C154%2C1280%2C604_crop_detail.jpg" class="d-block w-100"
-                                            alt="...">
+                                            <img src="./media/img/news/banner/%E9%99%84%E4%BB%B6%E4%BA%8C_%E7%94%B3%E8%AB%8B%E5%85%A5%E5%AD%B8%E6%9B%B8%E9%9D%A2%E8%B3%87%E6%96%99%E5%AF%A9%E6%9F%A5%E6%BA%96%E5%82%99%E6%8C%87%E5%BC%95%E9%A6%96%E9%A0%81%E5%A4%A7%E5%9C%96%E5%BA%95%E5%9C%96%E6%A8%A3%E5%BC%8F113%E5%B9%B4%E6%96%B0%E7%89%88%E6%A8%A3%E5%BC%8F.jpg.1336x470_q85_box-0%2C154%2C1280%2C604_crop_detail.jpg" class="d-block w-100" alt="逢甲大學 資訊工程學系 輪播新聞圖片" loading="eager" decoding="async" width="1336" height="470" fetchpriority="high">
                                     </div>
                                 </a>
                             
                                 <a href="/news/%E9%80%A2%E7%94%B2%E5%A4%A7%E5%AD%B8%E6%94%9C%E6%89%8B%E8%8F%AF%E7%A2%A9%E6%89%93%E9%80%A0AI%E4%BA%BA%E6%89%8D%E5%9F%B9%E8%82%B2%E5%9F%BA%E5%9C%B0GeForce%20RTX%205080/">
                                     <div class="carousel-item ">
-                                        <img src="./media/img/news/banner/912908.jpg.1336x470_q85_box-46%2C38%2C1814%2C662_crop_detail.jpg" class="d-block w-100"
-                                            alt="...">
+                                        <img src="./media/img/news/banner/912908.jpg.1336x470_q85_box-46%2C38%2C1814%2C662_crop_detail.jpg" class="d-block w-100" alt="逢甲大學 資訊工程學系 輪播新聞圖片" loading="lazy" decoding="async" width="1336" height="470">
                                     </div>
                                 </a>
                             
                                 <a href="/news/2026%E5%B9%B4%E7%94%B3%E8%AB%8B%E8%BD%89%E5%85%A5%E8%B3%87%E8%A8%8A%E7%B3%BB%E5%85%AC%E5%91%8A/">
                                     <div class="carousel-item ">
-                                        <img src="./media/img/news/banner/2026%E5%B9%B4%E7%94%B3%E8%AB%8B%E8%BD%89%E5%85%A5%E8%B3%87%E8%A8%8A%E7%B3%BB%E5%85%AC%E5%91%8A.png.1336x470_q85_box-0%2C0%2C4536%2C1595_crop_detail.jpg" class="d-block w-100"
-                                            alt="...">
+                                        <img src="./media/img/news/banner/2026%E5%B9%B4%E7%94%B3%E8%AB%8B%E8%BD%89%E5%85%A5%E8%B3%87%E8%A8%8A%E7%B3%BB%E5%85%AC%E5%91%8A.png.1336x470_q85_box-0%2C0%2C4536%2C1595_crop_detail.jpg" class="d-block w-100" alt="逢甲大學 資訊工程學系 輪播新聞圖片" loading="lazy" decoding="async" width="1336" height="470">
                                     </div>
                                 </a>
                             
                                 <a href="/news/%E3%80%8A%E9%81%A0%E8%A6%8B%E3%80%8B2026%E4%BC%81%E6%A5%AD%E6%9C%80%E6%84%9B%E5%A4%A7%E5%AD%B8%E7%94%9F%E6%8F%AD%E6%9B%89%20%E9%80%A2%E7%94%B2%E5%A5%AA%E7%A7%81%E6%A0%A1%E7%AC%AC%E4%B8%80/">
                                     <div class="carousel-item ">
-                                        <img src="./media/img/news/banner/957454_6FzlON4.jpg.1336x470_q85_box-0%2C31%2C1790%2C662_crop_detail.jpg" class="d-block w-100"
-                                            alt="...">
+                                        <img src="./media/img/news/banner/957454_6FzlON4.jpg.1336x470_q85_box-0%2C31%2C1790%2C662_crop_detail.jpg" class="d-block w-100" alt="逢甲大學 資訊工程學系 輪播新聞圖片" loading="lazy" decoding="async" width="1336" height="470">
                                     </div>
                                 </a>
                             
                                 <a href="/news/%E9%80%A2%E7%94%B2%E5%B0%88%E5%B1%AC%E3%80%81%E6%AC%8A%E5%A8%81%E9%A0%98%E8%88%AA%20-%20%E4%B8%8D%E7%94%A8%E6%A9%9F%E7%A5%A8%EF%BC%8C%E6%88%91%E5%80%91%E6%8A%8A%E5%85%A8%E7%90%83AI%E7%9B%9B%E4%BA%8B%20NVIDIA%20GTC%E5%B8%B6%E9%80%B2%E6%A0%A1%E5%9C%92%E4%BA%86%EF%BC%81/">
                                     <div class="carousel-item ">
                                         <img src="./media/img/news/banner/649629272_17863809681606184_6658030388514910949_n.jpg.1336x470_q85_box-0%2C211%2C1920%2C886_crop_detail.jpg" class="d-block w-100"
-                                            alt="...">
+                                            alt="逢甲大學 資訊工程學系 輪播新聞圖片">
                                     </div>
                                 </a>
                             
@@ -378,30 +407,27 @@
                                 </div>
                             
                                 <div class="carousel-item">
-                                    <img src="./media/img/index/banner/1BB98B6E-646A-4EB3-A9A0-CED911AAE904.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100"
-                                        alt="...">
+                                    <img src="./media/img/index/banner/1BB98B6E-646A-4EB3-A9A0-CED911AAE904.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100" alt="逢甲大學 資訊工程學系 輪播新聞圖片" loading="lazy" decoding="async" width="1336" height="470">
                                 </div>
                             
                                 <div class="carousel-item">
-                                    <img src="./media/img/index/banner/7040A41E-047B-4BCA-AB63-C4833016C070.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100"
-                                        alt="...">
+                                    <img src="./media/img/index/banner/7040A41E-047B-4BCA-AB63-C4833016C070.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100" alt="逢甲大學 資訊工程學系 輪播新聞圖片" loading="lazy" decoding="async" width="1336" height="470">
                                 </div>
                             
                                 <div class="carousel-item">
-                                    <img src="./media/img/index/banner/70233F0C-83D1-4153-846B-3EFBE0AFE2A4.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100"
-                                        alt="...">
+                                    <img src="./media/img/index/banner/70233F0C-83D1-4153-846B-3EFBE0AFE2A4.jpeg.1336x470_q85_box-0%2C30%2C2900%2C1050_crop_detail.jpg" class="d-block w-100" alt="逢甲大學 資訊工程學系 輪播新聞圖片" loading="lazy" decoding="async" width="1336" height="470">
                                 </div>
                             
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel"
                             data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                            <span class="visually-hidden">上一張</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carousel"
                             data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                            <span class="visually-hidden">下一張</span>
                         </button>
                     </div>
                 </div>
@@ -414,113 +440,113 @@
                 <div class="swiper-wrapper">
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=BzFmP4KrLqk" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/BzFmP4KrLqk/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=BzFmP4KrLqk" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：AI 時代的資工人生">
+                                <img src="./media/img/index/video/BzFmP4KrLqk/0.jpg" class="card-img-top" alt="AI 時代的資工人生" loading="lazy" decoding="async" width="480" height="270">
                                 <p>AI 時代的資工人生</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=FmukxCfdeCA" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/FmukxCfdeCA/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=FmukxCfdeCA" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：資工系教室裡的腦內對決現場">
+                                <img src="./media/img/index/video/FmukxCfdeCA/0.jpg" class="card-img-top" alt="資工系教室裡的腦內對決現場" loading="lazy" decoding="async" width="480" height="270">
                                 <p>資工系教室裡的腦內對決現場</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=oDDY-HMa8ec" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/oDDY-HMa8ec/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=oDDY-HMa8ec" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：你憧憬的大學是什麼樣子">
+                                <img src="./media/img/index/video/oDDY-HMa8ec/0.jpg" class="card-img-top" alt="你憧憬的大學是什麼樣子" loading="lazy" decoding="async" width="480" height="270">
                                 <p>你憧憬的大學是什麼樣子</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=gJzEtuOyiP4" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/gJzEtuOyiP4/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=gJzEtuOyiP4" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：這是我眼中的逢甲大學">
+                                <img src="./media/img/index/video/gJzEtuOyiP4/0.jpg" class="card-img-top" alt="這是我眼中的逢甲大學" loading="lazy" decoding="async" width="480" height="270">
                                 <p>這是我眼中的逢甲大學</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=Vwba3LrbsgU" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/Vwba3LrbsgU/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=Vwba3LrbsgU" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：關於就讀逢甲資工系的經驗分享">
+                                <img src="./media/img/index/video/Vwba3LrbsgU/0.jpg" class="card-img-top" alt="關於就讀逢甲資工系的經驗分享" loading="lazy" decoding="async" width="480" height="270">
                                 <p>關於就讀逢甲資工系的經驗分享</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=_zZGSaMcWg0" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/_zZGSaMcWg0/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=_zZGSaMcWg0" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：連續2年WWDC-Swift學生挑戰賽獲獎">
+                                <img src="./media/img/index/video/_zZGSaMcWg0/0.jpg" class="card-img-top" alt="連續2年WWDC-Swift學生挑戰賽獲獎" loading="lazy" decoding="async" width="480" height="270">
                                 <p>連續2年WWDC-Swift學生挑戰賽獲獎</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=pJ1b_c3YfiY" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/pJ1b_c3YfiY/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=pJ1b_c3YfiY" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：全台校園唯一5G專網 整個校園都是我的Living Lab">
+                                <img src="./media/img/index/video/pJ1b_c3YfiY/0.jpg" class="card-img-top" alt="全台校園唯一5G專網 整個校園都是我的Living Lab" loading="lazy" decoding="async" width="480" height="270">
                                 <p>全台校園唯一5G專網 整個校園都是我的Living Lab</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=gjit7Uspg78" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/gjit7Uspg78/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=gjit7Uspg78" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：逢甲大學62周年校慶 Together">
+                                <img src="./media/img/index/video/gjit7Uspg78/0.jpg" class="card-img-top" alt="逢甲大學62周年校慶 Together" loading="lazy" decoding="async" width="480" height="270">
                                 <p>逢甲大學62周年校慶 「Together」</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=q7UcqyqDWrs" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/q7UcqyqDWrs/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=q7UcqyqDWrs" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：日本學生在逢甲的一天">
+                                <img src="./media/img/index/video/q7UcqyqDWrs/0.jpg" class="card-img-top" alt="日本學生在逢甲的一天" loading="lazy" decoding="async" width="480" height="270">
                                 <p>日本學生在逢甲的一天!</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?time_continue=1&amp;v=l194tU9oa7s" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/2020-11-20_090106.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?time_continue=1&amp;v=l194tU9oa7s" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：逢甲大學簡介">
+                                <img src="./media/img/index/video/2020-11-20_090106.jpg" class="card-img-top" alt="逢甲大學簡介" loading="lazy" decoding="async" width="480" height="270">
                                 <p>逢甲大學簡介</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=XsdIFMIfs04" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/XsdIFMIfs04/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=XsdIFMIfs04" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：Introduction to Feng Chia University">
+                                <img src="./media/img/index/video/XsdIFMIfs04/0.jpg" class="card-img-top" alt="Introduction to Feng Chia University" loading="lazy" decoding="async" width="480" height="270">
                                 <p>Introduction to Feng Chia University</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=BkvyogWN_gY" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/BkvyogWN_gY/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=BkvyogWN_gY" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：專訪資訊系傑出系友研勤科技簡良益董事長">
+                                <img src="./media/img/index/video/BkvyogWN_gY/0.jpg" class="card-img-top" alt="專訪資訊系傑出系友研勤科技簡良益董事長" loading="lazy" decoding="async" width="480" height="270">
                                 <p>專訪資訊系傑出系友研勤科技簡良益董事長</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=Zr2ejasbnAA" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/Zr2ejasbnAA/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=Zr2ejasbnAA" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：五十周年系慶-劉安之特聘講座教授">
+                                <img src="./media/img/index/video/Zr2ejasbnAA/0.jpg" class="card-img-top" alt="五十周年系慶-劉安之特聘講座教授" loading="lazy" decoding="async" width="480" height="270">
                                 <p>五十周年系慶-劉安之特聘講座教授</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=mfyi8QoMFjI" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/mfyi8QoMFjI/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=mfyi8QoMFjI" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：五十周年系慶-張真誠特聘講座教授">
+                                <img src="./media/img/index/video/mfyi8QoMFjI/0.jpg" class="card-img-top" alt="五十周年系慶-張真誠特聘講座教授" loading="lazy" decoding="async" width="480" height="270">
                                 <p>五十周年系慶-張真誠特聘講座教授</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=97JOR05pxts" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/2.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=97JOR05pxts" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：資訊工程學系50週年紀念影片">
+                                <img src="./media/img/index/video/2.jpg" class="card-img-top" alt="資訊工程學系50週年紀念影片" loading="lazy" decoding="async" width="480" height="270">
                                 <p>資訊工程學系50週年紀念影片</p>
                             </button>
                         </div>
                     
                         <div class="swiper-slide card">
-                            <button data-url="https://www.youtube.com/watch?v=081uH9uoFQo" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video">
-                                <img src="./media/img/index/video/081uH9uoFQo/0.jpg" class="card-img-top">
+                            <button type="button" data-url="https://www.youtube.com/watch?v=081uH9uoFQo" data-bs-toggle="modal" data-bs-target="#modalForVideo" class="index-video" aria-label="播放：逢甲大學高承恕董事長談共善樓">
+                                <img src="./media/img/index/video/081uH9uoFQo/0.jpg" class="card-img-top" alt="逢甲大學高承恕董事長談共善樓">
                                 <p>逢甲大學高承恕董事長談共善樓</p>
                             </button>
                         </div>
@@ -529,10 +555,12 @@
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
             </div>
-            <div class="modal fade" id="modalForVideo" tabindex="-1" aria-labelledby="" aria-hidden="true">
+            <div class="modal fade" id="modalForVideo" tabindex="-1" aria-labelledby="modalForVideoLabel" aria-hidden="true">
                 <div class="modal-dialog modal-youtube">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    <div class="modal-content"></div>
+                    <div class="modal-content">
+                        <h2 id="modalForVideoLabel" class="visually-hidden">播放影片</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -545,7 +573,7 @@
                         <div class="card honor-card">
                             <a href="/news/%E9%80%A2%E7%94%B2%E5%A4%A7%E5%AD%B8%E6%94%9C%E6%89%8B%E8%8F%AF%E7%A2%A9%E6%89%93%E9%80%A0AI%E4%BA%BA%E6%89%8D%E5%9F%B9%E8%82%B2%E5%9F%BA%E5%9C%B0GeForce%20RTX%205080/">
                                 <div class="card-img-top overflow-hidden">
-                                    <img src="./media/img/news/banner/912908.jpg.1336x470_q85_box-46%2C38%2C1814%2C662_crop_detail.jpg" class="card-img-top card-img-scale" alt="...">
+                                    <img src="./media/img/news/banner/912908.jpg.1336x470_q85_box-46%2C38%2C1814%2C662_crop_detail.jpg" class="card-img-top card-img-scale" alt="逢甲大學攜手華碩打造AI人才培育基地 GeForce RTX 5080" loading="lazy" decoding="async" width="1336" height="470">
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -560,7 +588,7 @@
                         <div class="card honor-card">
                             <a href="/news/%E3%80%8A%E9%81%A0%E8%A6%8B%E3%80%8B2026%E4%BC%81%E6%A5%AD%E6%9C%80%E6%84%9B%E5%A4%A7%E5%AD%B8%E7%94%9F%E6%8F%AD%E6%9B%89%20%E9%80%A2%E7%94%B2%E5%A5%AA%E7%A7%81%E6%A0%A1%E7%AC%AC%E4%B8%80/">
                                 <div class="card-img-top overflow-hidden">
-                                    <img src="./media/img/news/banner/957454_6FzlON4.jpg.1336x470_q85_box-0%2C31%2C1790%2C662_crop_detail.jpg" class="card-img-top card-img-scale" alt="...">
+                                    <img src="./media/img/news/banner/957454_6FzlON4.jpg.1336x470_q85_box-0%2C31%2C1790%2C662_crop_detail.jpg" class="card-img-top card-img-scale" alt="《遠見》2026企業最愛大學生揭曉 逢甲奪私校第一" loading="lazy" decoding="async" width="1336" height="470">
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -575,7 +603,7 @@
                         <div class="card honor-card">
                             <a href="/news/%E9%83%AD%E5%B4%87%E9%9F%8B%E8%80%81%E5%B8%AB%E4%B8%BB%E6%8C%81%E5%9C%8B%E7%A7%91%E6%9C%83%E8%A8%88%E7%95%AB%E7%8D%B2114%E5%B9%B4%E5%BA%A6%E5%9C%8B%E7%A7%91%E6%9C%83%E8%B3%87%E8%A8%8A%E5%AD%B8%E9%96%80%E6%88%90%E6%9E%9C%E5%B1%95%E3%80%8C%E5%84%AA%E8%89%AF%E8%A8%88%E7%95%AB%E5%9F%B7%E8%A1%8C%E6%88%90%E6%9E%9C%E7%8D%8E%E3%80%8D/">
                                 <div class="card-img-top overflow-hidden">
-                                    <img src="./media/img/news/banner/messageImage_1768274094987.jpg.1336x470_q85_box-0%2C0%2C787%2C277_crop_detail.jpg" class="card-img-top card-img-scale" alt="...">
+                                    <img src="./media/img/news/banner/messageImage_1768274094987.jpg.1336x470_q85_box-0%2C0%2C787%2C277_crop_detail.jpg" class="card-img-top card-img-scale" alt="郭崇韋老師主持國科會計畫獲114年度國科會資訊學門成果展 優良計畫執行成果獎" loading="lazy" decoding="async" width="787" height="277">
                                 </div>
                                 <div class="card-body">
                                     <p class="card-text">
@@ -831,8 +859,36 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="./static/js/web_base.796446eeebc5.js"></script>
     
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./static/js/web_index.682f25d0b190.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+        <script src="./static/js/web_index.682f25d0b190.js" defer></script>
+
+        <script>
+        // Defer Swiper updates/initialization until load to avoid forced reflow during initial parsing.
+        window.addEventListener('load', function() {
+            try {
+                // Ensure images/sizes are settled before updating swiper instances
+                document.querySelectorAll('.swiper').forEach(function(el) {
+                    if (el.swiper && typeof el.swiper.update === 'function') {
+                        el.swiper.update();
+                    } else if (window.Swiper) {
+                        // Safe minimal init for any uninitialized swiper container
+                        new Swiper(el, {
+                            loop: false,
+                            preloadImages: false,
+                            lazy: { loadPrevNext: true },
+                            navigation: {
+                                nextEl: '.swiper-button-next',
+                                prevEl: '.swiper-button-prev'
+                            }
+                        });
+                    }
+                });
+            } catch (e) {
+                // swallow errors to avoid breaking other scripts
+                console.error('Swiper deferred init/update error:', e);
+            }
+        });
+        </script>
 
 </body>
 </html>
